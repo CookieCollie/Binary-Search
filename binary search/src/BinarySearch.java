@@ -9,16 +9,16 @@ public class BinarySearch {
 	Random RandomNum = new Random();
 	
 	
-	//Method to create array of random number and size
+	//Generate an array of 1000 random numbers
 	public BinarySearch(int target) {
 		Target = target;
-		for (int i=0; i<RandomNum.nextInt(100); i++) {
+		for (int i=0; i<1000; i++) {
 			array.add(RandomNum.nextInt(100));
 		}
 	}
 	
 	
-	//Method to create a test array
+	//Method to generate a test array
 	public BinarySearch(String test, int target) {
 		Target = target;
 		array.add(10);
